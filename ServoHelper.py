@@ -11,6 +11,6 @@ class ServoHelper:
         self.servo.turn_on_forward()
         sleep(time_to_work_s)
         self.servo.turn_off()
-
+aas
     def get_servo(self):
         return self.servo
