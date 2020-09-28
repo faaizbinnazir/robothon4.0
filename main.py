@@ -12,7 +12,7 @@ def run_servos_for_seconds(servos_list, run_time_s):
     for servo in servos_list:
         servo.turn_on_forward()
     sleep(run_time_s)
-    for servo in servos_list:
+    for servo in servos_last:
         servo.turn_off()
 
 def is_there_obstacle(distance_sensor, threshold_cm):
