@@ -17,4 +17,4 @@ class Servo:
 
     def turn_off(self):
         self.servo_backend.turn(90)
-        print("Turning off servo.")
+        print("Turning off servio.")
